@@ -1,0 +1,15 @@
+/workspaces/My-Cs-experiments-/bin/Debug/net8.0/My-Cs-experiments-
+/workspaces/My-Cs-experiments-/bin/Debug/net8.0/My-Cs-experiments-.deps.json
+/workspaces/My-Cs-experiments-/bin/Debug/net8.0/My-Cs-experiments-.runtimeconfig.json
+/workspaces/My-Cs-experiments-/bin/Debug/net8.0/My-Cs-experiments-.dll
+/workspaces/My-Cs-experiments-/bin/Debug/net8.0/My-Cs-experiments-.pdb
+/workspaces/My-Cs-experiments-/obj/Debug/net8.0/My-Cs-experiments-.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/My-Cs-experiments-/obj/Debug/net8.0/My-Cs-experiments-.AssemblyInfoInputs.cache
+/workspaces/My-Cs-experiments-/obj/Debug/net8.0/My-Cs-experiments-.AssemblyInfo.cs
+/workspaces/My-Cs-experiments-/obj/Debug/net8.0/My-Cs-experiments-.csproj.CoreCompileInputs.cache
+/workspaces/My-Cs-experiments-/obj/Debug/net8.0/My-Cs-experiments-.sourcelink.json
+/workspaces/My-Cs-experiments-/obj/Debug/net8.0/My-Cs-experiments-.dll
+/workspaces/My-Cs-experiments-/obj/Debug/net8.0/refint/My-Cs-experiments-.dll
+/workspaces/My-Cs-experiments-/obj/Debug/net8.0/My-Cs-experiments-.pdb
+/workspaces/My-Cs-experiments-/obj/Debug/net8.0/My-Cs-experiments-.genruntimeconfig.cache
+/workspaces/My-Cs-experiments-/obj/Debug/net8.0/ref/My-Cs-experiments-.dll
