@@ -12,12 +12,17 @@ class Program
             {
                 Console.WriteLine("Please enter first Numerator.");
                 String numerator1 = Console.ReadLine();
+                int numerator1Int = int.Parse(numerator1);
                 Console.WriteLine("Please enter first denominator.");
                 String denominator1 = Console.ReadLine();
+                int denominator1int = int.Parse(denominator1);
                 Console.WriteLine("Please enter second Numerator.");
                 String numerator2 = Console.ReadLine();
+                int numerator2Int = int.Parse(numerator2);
                 Console.WriteLine("Please enter second denominator.");
                 String denominator2 = Console.ReadLine();
+                int denominator2int = int.Parse(denominator2);
+
             }
             else if (equationType == "+")
             {
@@ -111,6 +116,7 @@ class Program
                 Console.WriteLine("Your answer is: " + Math.Pow(number1, number2) + ".");
             }
             else {
+                Console.WriteLine("Error, invalid input.");
                 break;
             }
         }
