@@ -10,7 +10,7 @@ class Program
             String equationType = Console.ReadLine();
             if (equationType == "x/x") 
             {
-                Console.WriteLine("What will you do you want to do with fractions? +, -, *, /, ^, or convert to decimal?");
+                Console.WriteLine("What will you do you want to do with fractions? +, -, *, /, or ^?");
                 String fractionEquationType = Console.ReadLine();
                 Console.Clear();
                 Console.WriteLine("Please enter first Numerator.");
@@ -25,6 +25,8 @@ class Program
                 Console.WriteLine("Please enter second denominator.");
                 String denominator2 = Console.ReadLine();
                 int denominator2int = int.Parse(denominator2);
+                String fraction1 = (numerator1int / denominator1int);
+                String fraction2 = (numerator2int / denominator2int);
                 if (fractionEquationType == "+")
                 {
                     Console.Clear();
@@ -46,11 +48,6 @@ class Program
 
                 }
                 else if (fractionEquationType == "^")
-                {
-                    Console.Clear();
-
-                }
-                else if (fractionEquationType == "convert to decimal")
                 {
                     Console.Clear();
 
