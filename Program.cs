@@ -2,6 +2,18 @@
 
 class Program
 {
+    public static double number1; 
+    public static double number2; 
+
+    static void getNumbers(){
+    Console.WriteLine("Insert first number:");
+    String num1 = Console.ReadLine();
+    number1 = double.Parse(num1);
+    Console.WriteLine("Insert second number:");
+    String num2 = Console.ReadLine();
+    number2 = double.Parse(num2);
+    Console.Clear();
+    }
     public static void Main(string[] args)
     {
         Console.Clear();
@@ -29,27 +41,23 @@ class Program
                 if (fractionEquationType == "+")
                 {
                     Console.Clear();
-
+                    
                 }
                 else if (fractionEquationType == "-")
                 {
                     Console.Clear();
-
                 }
                 else if (fractionEquationType == "*")
                 {
                     Console.Clear();
-
                 }
                 else if (fractionEquationType == "/")
                 {
                     Console.Clear();
-
                 }
                 else if (fractionEquationType == "^")
                 {
                     Console.Clear();
-
                 }
                 else {
                     Console.Clear();
@@ -58,79 +66,37 @@ class Program
             }
             else if (equationType == "+")
             {
-                Console.WriteLine("Insert first number:");
-                String num1 = Console.ReadLine();
-                double number1 = double.Parse(num1);
-                Console.WriteLine("Insert second number:");
-                String num2 = Console.ReadLine();
-                double number2 = double.Parse(num2);
-                Console.Clear();
+                getNumbers();
                 Console.WriteLine("Your answer is: " + (number1 + number2) + ".");
             }
             else if (equationType == "-")
             {
-                Console.WriteLine("Insert first number:");
-                String num1 = Console.ReadLine();
-                double number1 = double.Parse(num1);
-                Console.WriteLine("Insert second number:");
-                String num2 = Console.ReadLine();
-                double number2 = double.Parse(num2);
-                Console.Clear();
+                getNumbers();
                 Console.WriteLine("Your answer is: " + (number1 - number2) + ".");
             }
             else if (equationType == "*")
             {
-                Console.WriteLine("Insert first number:");
-                String num1 = Console.ReadLine();
-                double number1 = double.Parse(num1);
-                Console.WriteLine("Insert second number:");
-                String num2 = Console.ReadLine();
-                double number2 = double.Parse(num2);
-                Console.Clear();
+                getNumbers();
                 Console.WriteLine("Your answer is: " + (number1 * number2) + ".");
             }
             else if (equationType == "/")
             {
-                Console.WriteLine("Insert first number:");
-                String num1 = Console.ReadLine();
-                double number1 = double.Parse(num1);
-                Console.WriteLine("Insert second number:");
-                String num2 = Console.ReadLine();
-                double number2 = double.Parse(num2);
-                Console.Clear();
+                getNumbers();
                 Console.WriteLine("Your answer is: " + (number1 / number2) + ".");
             }
             else if (equationType == "//")
             {
-                Console.WriteLine("Insert first number:");
-                String num1 = Console.ReadLine();
-                double number1 = double.Parse(num1);
-                Console.WriteLine("Insert second number:");
-                String num2 = Console.ReadLine();
-                double number2 = double.Parse(num2);
-                Console.Clear();
+                getNumbers();
                 Console.WriteLine("Your answer is: " + (number1 / number2) + ".");
             }
             else if (equationType == "%")
             {
-                Console.WriteLine("Insert first number:");
-                String num1 = Console.ReadLine();
-                double number1 = double.Parse(num1);
-                Console.WriteLine("Insert second number:");
-                String num2 = Console.ReadLine();
-                double number2 = double.Parse(num2);
-                Console.Clear();
+                getNumbers();
                 Console.WriteLine("Your answer is: " + (number1 % number2) + ".");
             }
             else if (equationType == "^")
             {
-                Console.WriteLine("Insert first number:");
-                String num1 = Console.ReadLine();
-                double number1 = double.Parse(num1);
-                Console.WriteLine("Insert second number:");
-                String num2 = Console.ReadLine();
-                double number2 = double.Parse(num2);
-                Console.Clear();
+                getNumbers();
                 Console.WriteLine("Your answer is: " + Math.Pow(number1, number2) + ".");
             }
             else {
