@@ -4,9 +4,10 @@ class Program
 {
     public static void Main(string[] args)
     {
+        Console.Clear();
         while (true)
         {
-            Console.WriteLine("What type of problem do you want to do? To add enter a +. To subtract enter a -. To multiply enter an *. To divide with decimals enter a /. If you want to divide without decimals, enter //.  To find a remainder enter a %. If you want to do an exponent, type ^. If you would like to do fractions, enter x/x");
+            Console.WriteLine("What type of problem do you want to do? To add enter a +. To subtract enter a -. To multiply enter an *. To divide with decimals enter a /. If you want to divide without decimals, enter //.  To find a remainder enter a %. If you want to do an exponent, type ^. If you would like to do fractions, enter x/x.");
             String equationType = Console.ReadLine();
             if (equationType == "x/x") 
             {
@@ -25,8 +26,6 @@ class Program
                 Console.WriteLine("Please enter second denominator.");
                 String denominator2 = Console.ReadLine();
                 int denominator2int = int.Parse(denominator2);
-                String fraction1 = (numerator1int / denominator1int);
-                String fraction2 = (numerator2int / denominator2int);
                 if (fractionEquationType == "+")
                 {
                     Console.Clear();
@@ -56,17 +55,14 @@ class Program
                     Console.Clear();
                     Console.WriteLine("Error, invalid input.");
                 }
-
             }
             else if (equationType == "+")
             {
                 Console.WriteLine("Insert first number:");
                 String num1 = Console.ReadLine();
-                int numb1 = int.Parse(num1);
                 double number1 = double.Parse(num1);
                 Console.WriteLine("Insert second number:");
                 String num2 = Console.ReadLine();
-                int numb2 = int.Parse(num2);
                 double number2 = double.Parse(num2);
                 Console.Clear();
                 Console.WriteLine("Your answer is: " + (number1 + number2) + ".");
@@ -75,11 +71,9 @@ class Program
             {
                 Console.WriteLine("Insert first number:");
                 String num1 = Console.ReadLine();
-                int numb1 = int.Parse(num1);
                 double number1 = double.Parse(num1);
                 Console.WriteLine("Insert second number:");
                 String num2 = Console.ReadLine();
-                int numb2 = int.Parse(num2);
                 double number2 = double.Parse(num2);
                 Console.Clear();
                 Console.WriteLine("Your answer is: " + (number1 - number2) + ".");
@@ -88,11 +82,9 @@ class Program
             {
                 Console.WriteLine("Insert first number:");
                 String num1 = Console.ReadLine();
-                int numb1 = int.Parse(num1);
                 double number1 = double.Parse(num1);
                 Console.WriteLine("Insert second number:");
                 String num2 = Console.ReadLine();
-                int numb2 = int.Parse(num2);
                 double number2 = double.Parse(num2);
                 Console.Clear();
                 Console.WriteLine("Your answer is: " + (number1 * number2) + ".");
@@ -101,11 +93,9 @@ class Program
             {
                 Console.WriteLine("Insert first number:");
                 String num1 = Console.ReadLine();
-                int numb1 = int.Parse(num1);
                 double number1 = double.Parse(num1);
                 Console.WriteLine("Insert second number:");
                 String num2 = Console.ReadLine();
-                int numb2 = int.Parse(num2);
                 double number2 = double.Parse(num2);
                 Console.Clear();
                 Console.WriteLine("Your answer is: " + (number1 / number2) + ".");
@@ -114,24 +104,20 @@ class Program
             {
                 Console.WriteLine("Insert first number:");
                 String num1 = Console.ReadLine();
-                int numb1 = int.Parse(num1);
                 double number1 = double.Parse(num1);
                 Console.WriteLine("Insert second number:");
                 String num2 = Console.ReadLine();
-                int numb2 = int.Parse(num2);
                 double number2 = double.Parse(num2);
                 Console.Clear();
-                Console.WriteLine("Your answer is: " + (numb1 / numb2) + ".");
+                Console.WriteLine("Your answer is: " + (number1 / number2) + ".");
             }
             else if (equationType == "%")
             {
                 Console.WriteLine("Insert first number:");
                 String num1 = Console.ReadLine();
-                int numb1 = int.Parse(num1);
                 double number1 = double.Parse(num1);
                 Console.WriteLine("Insert second number:");
                 String num2 = Console.ReadLine();
-                int numb2 = int.Parse(num2);
                 double number2 = double.Parse(num2);
                 Console.Clear();
                 Console.WriteLine("Your answer is: " + (number1 % number2) + ".");
@@ -140,16 +126,15 @@ class Program
             {
                 Console.WriteLine("Insert first number:");
                 String num1 = Console.ReadLine();
-                int numb1 = int.Parse(num1);
                 double number1 = double.Parse(num1);
                 Console.WriteLine("Insert second number:");
                 String num2 = Console.ReadLine();
-                int numb2 = int.Parse(num2);
                 double number2 = double.Parse(num2);
                 Console.Clear();
                 Console.WriteLine("Your answer is: " + Math.Pow(number1, number2) + ".");
             }
             else {
+                Console.Clear();
                 Console.WriteLine("Error, invalid input.");
                 break;
             }
