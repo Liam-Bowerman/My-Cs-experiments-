@@ -10,6 +10,9 @@ class Program
             String equationType = Console.ReadLine();
             if (equationType == "x/x") 
             {
+                Console.WriteLine("What will you do you want to do with fractions? +, -, *, /, ^, or convert to decimal?");
+                String fractionEquationType = Console.ReadLine();
+                Console.Clear();
                 Console.WriteLine("Please enter first Numerator.");
                 String numerator1 = Console.ReadLine();
                 int numerator1Int = int.Parse(numerator1);
@@ -22,33 +25,38 @@ class Program
                 Console.WriteLine("Please enter second denominator.");
                 String denominator2 = Console.ReadLine();
                 int denominator2int = int.Parse(denominator2);
-                Console.WriteLine("What will you do you want to do with those fractions? +, -, *, /, ^, or convert to decimal?");
-                String fractionEquationType = Console.ReadLine();
                 if (fractionEquationType == "+")
                 {
+                    Console.Clear();
 
                 }
                 else if (fractionEquationType == "-")
                 {
+                    Console.Clear();
 
                 }
                 else if (fractionEquationType == "*")
                 {
+                    Console.Clear();
 
                 }
                 else if (fractionEquationType == "/")
                 {
+                    Console.Clear();
 
                 }
                 else if (fractionEquationType == "^")
                 {
+                    Console.Clear();
 
                 }
                 else if (fractionEquationType == "convert to decimal")
                 {
+                    Console.Clear();
 
                 }
                 else {
+                    Console.Clear();
                     Console.WriteLine("Error, invalid input.");
                 }
 
