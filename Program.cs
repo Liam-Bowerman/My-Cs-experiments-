@@ -6,7 +6,7 @@ class Program
     {
         while (true)
         {
-            Console.WriteLine("What type of problem do you want to do? To add enter a +. To subtract enter a -. To multiply enter an *. To divide with decimals enter a /. If you want to divide without decimals, enter //.  To find a remainder enter a %. If you and to do an exponent, type ^. If you would like to do fractions, enter x/x");
+            Console.WriteLine("What type of problem do you want to do? To add enter a +. To subtract enter a -. To multiply enter an *. To divide with decimals enter a /. If you want to divide without decimals, enter //.  To find a remainder enter a %. If you want to do an exponent, type ^. If you would like to do fractions, enter x/x");
             String equationType = Console.ReadLine();
             if (equationType == "x/x") 
             {
@@ -22,6 +22,35 @@ class Program
                 Console.WriteLine("Please enter second denominator.");
                 String denominator2 = Console.ReadLine();
                 int denominator2int = int.Parse(denominator2);
+                Console.WriteLine("What will you do you want to do with those fractions? +, -, *, /, ^, or convert to decimal?");
+                String fractionEquationType = Console.ReadLine();
+                if (fractionEquationType == "+")
+                {
+
+                }
+                else if (fractionEquationType == "-")
+                {
+
+                }
+                else if (fractionEquationType == "*")
+                {
+
+                }
+                else if (fractionEquationType == "/")
+                {
+
+                }
+                else if (fractionEquationType == "^")
+                {
+
+                }
+                else if (fractionEquationType == "convert to decimal")
+                {
+
+                }
+                else {
+                    Console.WriteLine("Error, invalid input.");
+                }
 
             }
             else if (equationType == "+")
