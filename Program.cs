@@ -5,7 +5,8 @@ class Program
     public static double number1; 
     public static double number2; 
 
-    static void getNumbers(){
+    static void GetNumbers()
+    {
     Console.WriteLine("Insert first number:");
     String num1 = Console.ReadLine();
     number1 = double.Parse(num1);
@@ -75,37 +76,37 @@ class Program
             }
             else if (equationType == "+")
             {
-                getNumbers();
+                GetNumbers();
                 Console.WriteLine("Your answer is: " + (number1 + number2) + ".");
             }
             else if (equationType == "-")
             {
-                getNumbers();
+                GetNumbers();
                 Console.WriteLine("Your answer is: " + (number1 - number2) + ".");
             }
             else if (equationType == "*")
             {
-                getNumbers();
+                GetNumbers();
                 Console.WriteLine("Your answer is: " + (number1 * number2) + ".");
             }
             else if (equationType == "/")
             {
-                getNumbers();
+                GetNumbers();
                 Console.WriteLine("Your answer is: " + (number1 / number2) + ".");
             }
             else if (equationType == "//")
             {
-                getNumbers();
+                GetNumbers();
                 Console.WriteLine("Your answer is: " + (number1 / number2) + ".");
             }
             else if (equationType == "%")
             {
-                getNumbers();
+                GetNumbers();
                 Console.WriteLine("Your answer is: " + (number1 % number2) + ".");
             }
             else if (equationType == "^")
             {
-                getNumbers();
+                GetNumbers();
                 Console.WriteLine("Your answer is: " + Math.Pow(number1, number2) + ".");
             }
             else {
