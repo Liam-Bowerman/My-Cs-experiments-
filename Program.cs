@@ -23,7 +23,7 @@ class Program
         {
             Console.WriteLine("");
             Console.WriteLine("What type of problem do you want to do? To add enter a +. To subtract enter a -. To multiply enter an *. To divide with decimals enter a /.");
-            Console.WriteLine("If you want to divide without decimals, enter //.  To find a remainder enter a %. If you want to do an exponent, type ^. If you would like to do fractions, enter x/x.");
+            Console.WriteLine("To find a remainder enter a %. If you want to do an exponent, type ^. If you would like to do fractions, enter x/x.");
             Console.WriteLine("");
             String equationType = Console.ReadLine();
             Console.WriteLine("");
@@ -72,6 +72,7 @@ class Program
                 else {
                     Console.Clear();
                     Console.WriteLine("Error, invalid input.");
+                    break;
                 }
             }
             else if (equationType == "+")
@@ -90,11 +91,6 @@ class Program
                 Console.WriteLine("Your answer is: " + (number1 * number2) + ".");
             }
             else if (equationType == "/")
-            {
-                GetNumbers();
-                Console.WriteLine("Your answer is: " + (number1 / number2) + ".");
-            }
-            else if (equationType == "//")
             {
                 GetNumbers();
                 Console.WriteLine("Your answer is: " + (number1 / number2) + ".");
