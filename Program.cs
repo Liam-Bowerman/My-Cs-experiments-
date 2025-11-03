@@ -51,7 +51,6 @@ class Program
                 if (fractionEquationType == "+")
                 {
                     Console.Clear();
-                    
                 }
                 else if (fractionEquationType == "-")
                 {
